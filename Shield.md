@@ -12,6 +12,10 @@ In order to get any license under these terms, you must agree to them as both st
 
 The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any purpose, except for providing any product that competes with the software or any product the licensor or any of its affiliates provides using the software.
 
+## Competition
+
+Goods and services compete even when they provide functionality through different kinds of interfaces or for different technical platforms.  Applications can compete with services, libraries with plugins, frameworks with development tools, and so on, even if they're written in different programming languages or for different computer architectures.  Goods and services compete even when provided free of charge.  If you market a product as a practical substitute for the software or another product, it definitely competes.
+
 ## Notices
 
 You must ensure that anyone who gets a copy of any part of the software from you also gets a copy of these terms or the URL for them above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with the software.  For example:
@@ -21,10 +25,6 @@ You must ensure that anyone who gets a copy of any part of the software from you
 ## Patent License
 
 The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.
-
-## Competition
-
-Goods and services compete even when they provide functionality through different kinds of interfaces or for different technical platforms.  Applications can compete with services, libraries with plugins, frameworks with development tools, and so on, even if they're written in different programming languages or for different computer architectures.  Goods and services compete even when provided free of charge.  If you market a product as a practical substitute for the software or another product, it definitely competes.
 
 ## New Products
 
