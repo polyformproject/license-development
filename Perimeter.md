@@ -10,11 +10,11 @@ In order to get any license under these terms, you must agree to them as both st
 
 ## Copyright License
 
-The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any permitted purpose.  However, you may only distribute the software according to [Distribution License](#distribution-license) and make changes or new works based on the software according to [Changes and New Works License](#changes-and-new-works-license).
+The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any purpose, other than for providing to others any product that competes with the software.
 
-## Distribution License
+## Competition
 
-The licensor grants you an additional copyright license to distribute copies of the software.  Your license to distribute covers distributing the software with changes and new works permitted by [Changes and New Works License](#changes-and-new-works-license).
+If you use this software to market a product as a substitute for the functionality or value of the software, it competes with the software. A product may compete regardless how it is designed or deployed. For example, a product may compete even if it provides its functionality via any kind of interface (including services, libraries or plug-ins), even if it is ported to a different platforms or programming languages, and even if it is provided free of charge.
 
 ## Notices
 
@@ -22,21 +22,9 @@ You must ensure that anyone who gets a copy of any part of the software from you
 
 > Required Notice: Copyright Yoyodyne, Inc. (http://example.com)
 
-## Changes and New Works License
-
-The licensor grants you an additional copyright license to make changes and new works based on the software for any permitted purpose.
-
 ## Patent License
 
 The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.
-
-## Noncompete
-
-Any purpose is a permitted purpose, except for providing to others any product that competes with the software.
-
-## Competition
-
-If you use this software to market a product as a substitute for the functionality or value of the software, it competes with the software. A product may compete regardless how it is designed or deployed. For example, a product may compete even if it provides its functionality via any kind of interface (including services, libraries or plug-ins), even if it is ported to a different platforms or programming languages, and even if it is provided free of charge.
 
 ## Fair Use
 

@@ -10,11 +10,11 @@ In order to get any license under these terms, you must agree to them as both st
 
 ## Copyright License
 
-The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any permitted purpose.  However, you may only make changes or new works based on the software according to [Changes and New Works License](#changes-and-new-works-license), and you may not distribute the software.
+The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any internal business.  However, you may only make changes or new works based on the software according to [Changes and New Works License](#changes-and-new-works-license), and you may not distribute the software.
 
 ## Changes and New Works License
 
-The licensor grants you an additional copyright license to make changes and new works based on the software for any permitted purpose.
+The licensor grants you an additional copyright license to make changes and new works based on the software for any internal business.
 
 ## Patent License
 
@@ -26,7 +26,7 @@ You may have "fair use" rights for the software under the law. These terms do no
 
 ## Internal Business Use
 
-Use of the software for the internal business operations of you and your company is use for a permitted purpose.
+Use of the software for the internal business operations of you and your company is use for an internal business purpose.
 
 ## No Other Rights
 
