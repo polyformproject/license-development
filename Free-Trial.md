@@ -10,11 +10,7 @@ In order to get any license under these terms, you must agree to them as both st
 
 ## Copyright License
 
-The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any permitted purpose.  However, you may only make changes or new works based on the software according to [Changes and New Works License](#changes-and-new-works-license), and you may not distribute copies of the software.
-
-## Changes and New Works License
-
-The licensor grants you an additional copyright license to make changes and new works based on the software for any permitted purpose.
+The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it to evaluate the software. You may make changes and new works based on the software only as necessary to evaluate the software. You may not distribute copies of the software.
 
 ## Patent License
 
@@ -26,7 +22,7 @@ You may have "fair use" rights for the software under the law. These terms do no
 
 ## Free Trial
 
-Use to evaluate whether the software suits a particular application for less than 32 consecutive calendar days, on behalf of you or your company, is use for a permitted purpose.
+Use to evaluate whether the software suits a particular application for less than 32 consecutive calendar days, on behalf of you or your company, is use to evaluate the software.
 
 ## No Other Rights
 
