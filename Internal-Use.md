@@ -1,6 +1,8 @@
-# PolyForm Internal Use License 1.0.0
+# PolyForm Internal Use License
 
-<https://polyformproject.org/licenses/internal-use/1.0.0>
+Development Draft
+
+<https://github.com/polyformproject/license-development>
 
 ## Acceptance
 

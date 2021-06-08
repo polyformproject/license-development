@@ -1,6 +1,8 @@
-# PolyForm Shield License 1.0.0
+# PolyForm Shield License
 
-<https://polyformproject.org/licenses/shield/1.0.0>
+Development Draft
+
+<https://github.com/polyformproject/license-development>
 
 ## Acceptance
 

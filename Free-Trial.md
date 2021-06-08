@@ -1,6 +1,8 @@
-# PolyForm Free Trial License 1.0.0
+# PolyForm Free Trial License
 
-<https://polyformproject.org/licenses/free-trial/1.0.0>
+Development Draft
+
+<https://github.com/polyformproject/license-development>
 
 ## Acceptance
 

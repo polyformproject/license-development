@@ -1,6 +1,8 @@
-# PolyForm Small Business License 1.0.0
+# PolyForm Small Business License
 
-<https://polyformproject.org/licenses/small-business/1.0.0>
+Development Draft
+
+<https://github.com/polyformproject/license-development>
 
 ## Acceptance
 
