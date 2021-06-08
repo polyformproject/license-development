@@ -1,3 +1,3 @@
 # PolyForm License Development
 
-working copies of [PolyForm Project](https://polyformproject.org) licenses
+working drafts of [PolyForm Project](https://polyformproject.org) licenses

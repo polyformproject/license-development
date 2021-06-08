@@ -1,6 +1,6 @@
 # PolyForm Perimeter License
 
-Development Draft
+Working Draft
 
 <https://github.com/polyformproject/license-development>
 
