@@ -36,7 +36,7 @@ You may have "fair use" rights for the software under the law. These terms do no
 
 ## Small Business
 
-Use of the software for the benefit of your company is use for a permitted purpose if your company has fewer than 100 total individuals working as employees and independent contractors, and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
+Use of the software for the benefit of your company is use for a permitted purpose if your company has fewer than 100 total individuals working as employees and independent contractors, less than 1,000,000 USD (2019) total revenue in the prior tax year, and less than 1,000,000 USD (2019) total debt, equity, and other investment in the last five tax years, counting investment in predecessor companies that reorganized into, merged with, or spun out your company.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
 
 ## No Other Rights
 
