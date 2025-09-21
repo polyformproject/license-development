@@ -7,7 +7,7 @@ require 'yaml'
 Dir.mkdir('licenses') rescue nil
 
 meta = YAML.load_file('licenses.yml')
-template = ERB.new(File.read('template.erb'))
+template = ERB.new(File.read('template.erb.md'))
 all_keys = meta.keys
 meta.each do |key, properties|
   file = "#{properties['file']}.md"
