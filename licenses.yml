@@ -1,0 +1,42 @@
+freetrial:
+  title: Free Trial
+  slug: free-trial
+  file: Free-Trial
+  change: yes
+  distribute: no
+internaluse:
+  title: Internal Use
+  file: Internal-Use
+  slug: internal-use
+  change: yes
+  distribute: no
+perimeter:
+  title: Perimeter
+  slug: perimeter
+  file: Perimeter
+  change: yes
+  distribute: yes
+shield:
+  title: Shield
+  file: Shield
+  slug: shield
+  change: yes
+  distribute: yes
+smallbusiness:
+  title: Small Business
+  file: Small-Business
+  slug: small-business
+  change: yes
+  distribute: yes
+strict:
+  title: Strict
+  file: Strict
+  slug: strict
+  change: no
+  distribute: no
+noncommercial:
+  title: Noncommercial
+  file: Noncommercial
+  slug: noncommercial
+  change: yes
+  distribute: yes

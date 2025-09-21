@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'erb'
+require 'yaml'
+
+meta = YAML.load_file('licenses.yml')
+template = ERB.new(File.read('template.erb'))
+all_keys = meta.keys
+meta.each do |key, properties|
+  file = "#{properties['file']}.md"
+  view = {}
+  all_keys.each do |other_key|
+    if other_key == key then view[other_key] = true
+    else view[other_key] = false end
+  end
+  view.merge!(properties)
+  text = template.result_with_hash(view)
+  File.write(file, text.gsub(/\n{2,}/, "\n\n"))
+end
