@@ -34,7 +34,8 @@ The licensor grants you an additional copyright license to make changes and new 
 
 The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.
 
-<% if perimeter %>## Noncompete
+<% if perimeter %>
+## Noncompete
 
 Any purpose is a permitted purpose, except for providing to others any product that competes with the software.
 
