@@ -6,7 +6,7 @@ Working Draft
 
 ## Acceptance
 
-In order to get this license for the software, you have to agree to all its terms.
+In order to get free licenses for the software under these terms, you have to agree to all of these terms.
 
 <%# Headline Permission Provisions %>
 
