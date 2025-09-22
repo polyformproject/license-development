@@ -103,7 +103,7 @@ Use of the software for the internal business operations of you and your company
 <% if freetrial %>
 ## Free Trial
 
-Use to evaluate whether the software suits a particular application for less than 32 consecutive calendar days, on behalf of you or your company, is use for a permitted purpose.
+Use to evaluate whether the software suits a particular application for less than 30 consecutive calendar days, on behalf of you or your company, is use for a permitted purpose.
 <% end %>
 
 ## No Other Rights
