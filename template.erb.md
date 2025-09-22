@@ -35,7 +35,7 @@ Use for noncommercial purposes includes personal use for research, experiment, a
 
 ## Noncommercial Organizations
 
-Use for noncommercial purposes includes use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution, regardless of the source of funding or obligations resulting from funding.
+Use for noncommercial purposes includes use on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution, regardless of how that use is funded or any conditions of funding.
 <% end %>
 
 <% if perimeter or shield %>
