@@ -4,10 +4,6 @@ Working Draft
 
 <https://github.com/polyformproject/license-development>
 
-## Acceptance
-
-In order to get free licenses for the software under these terms, you have to agree to all of these terms.
-
 <%# Headline Permission Provisions %>
 
 <% if smallbusiness %>
