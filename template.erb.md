@@ -10,6 +10,24 @@ In order to get free licenses for the software under these terms, you have to ag
 
 <%# Headline Permission Provisions %>
 
+<% if smallbusiness %>
+## Small Business Use
+
+The licenses under these terms allow you to use the software for the benefit of your company only if your company has fewer than 100 total individuals working as employees and independent contractors, and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
+<% end %>
+
+<% if internaluse %>
+## Internal Business Use
+
+The licenses under these terms allow you to use and change the software only for the internal business operations of you and your company only.
+<% end %>
+
+<% if freetrial %>
+## Free Trial
+
+The licenses under these terms allow you to use and change the software for yourself or your company for 30 consecutive calendar days, to evaluate whether the software suits a particular application.
+<% end %>
+
 <% if noncommercial or strict %>
 ## Noncommercial Use
 
@@ -72,24 +90,6 @@ The licensor grants you a patent license for the software that covers patent cla
 ## Fair Use
 
 You may have "fair use" rights for the software under the law. These terms do not limit them.
-
-<% if smallbusiness %>
-## Small Business
-
-Use of the software for the benefit of your company is use for a permitted purpose if your company has fewer than 100 total individuals working as employees and independent contractors, and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
-<% end %>
-
-<% if internaluse %>
-## Internal Business Use
-
-Use of the software for the internal business operations of you and your company is use for a permitted purpose.
-<% end %>
-
-<% if freetrial %>
-## Free Trial
-
-Use to evaluate whether the software suits a particular application for less than 30 consecutive calendar days, on behalf of you or your company, is use for a permitted purpose.
-<% end %>
 
 ## No Other Rights
 
