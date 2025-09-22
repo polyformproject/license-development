@@ -13,7 +13,7 @@ In order to get free licenses for the software under these terms, you have to ag
 <% if smallbusiness %>
 ## Small Business Use
 
-The licenses under these terms allow you to use the software for the benefit of your company only if your company has fewer than 100 total individuals working as employees and independent contractors, and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
+The licenses under these terms allow you to use the software for the benefit of your company only while it has fewer than 100 total individuals working as employees and independent contractors and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
 <% end %>
 
 <% if internaluse %>
