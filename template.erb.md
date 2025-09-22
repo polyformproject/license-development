@@ -6,10 +6,12 @@ Working Draft
 
 ## Acceptance
 
-In order to get this license for this software, you have to agree to all its terms.
+In order to get this license for the software, you have to agree to all its terms.
+
+<%# Headline Permission Provisions %>
 
 <% if noncommercial or strict %>
-## Noncommercial
+## Noncommercial Use
 
 This license allows you to use<% if noncommercial %>, change, and share<% end %> the software for noncommercial purposes only.
 
@@ -22,50 +24,15 @@ Use for noncommercial purposes includes personal use for research, experiment, a
 Use for noncommercial purposes includes use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution, regardless of the source of funding or obligations resulting from funding.
 <% end %>
 
-## Copyright License
+<% if perimeter or shield %>
+## Noncompetitive Use
 
-The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any permitted purpose<% if strict %>, other than distributing the software or making changes or new works based on the software.<% else %>.<% end %><% if change and not distribute %>  However, you may only make changes or new works based on the software according to [Changes and New Works License](#changes-and-new-works-license), and you may not distribute<% unless internaluse %> copies of<% end %> the software.<% elsif change and distribute %>  However, you may only distribute the software according to [Distribution License](#distribution-license) and make changes or new works based on the software according to [Changes and New Works License](#changes-and-new-works-license).<% end %>
-
-<% if distribute %>
-## Distribution License
-
-The licensor grants you an additional copyright license to distribute copies of the software.  Your license to distribute covers distributing the software with changes and new works permitted by [Changes and New Works License](#changes-and-new-works-license).
-
-## Notices
-
-You must ensure that anyone who gets a copy of any part of the software from you also gets a copy of these terms or the URL for them above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with the software.  For example:
-
-> Required Notice: Copyright Yoyodyne, Inc. (http://example.com)
-<% end %>
-
-<% if change %>
-## Changes and New Works License
-
-The licensor grants you an additional copyright license to make changes and new works based on the software for any permitted purpose.
-<% end %>
-
-## Patent License
-
-The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.
-
-<% if perimeter %>
-## Noncompete
-
-Any purpose is a permitted purpose, except for providing to others any product that competes with the software.
+This license allows you to use, change, and share the software for any purpose other than providing any product that competes with the software<% if shield %> or any product the licensor or any of its affiliates provides using the software<% end %>.
 
 ## Competition
 
-If you use this software to market a product as a substitute for the functionality or value of the software, it competes with the software. A product may compete regardless how it is designed or deployed. For example, a product may compete even if it provides its functionality via any kind of interface (including services, libraries or plug-ins), even if it is ported to a different platform or programming language, and even if it is provided free of charge.
-<% end %>
-
-<% if shield %>
-## Noncompete
-
-Any purpose is a permitted purpose, except for providing any product that competes with the software or any product the licensor or any of its affiliates provides using the software.
-
-## Competition
-
-Goods and services compete even when they provide functionality through different kinds of interfaces or for different technical platforms.  Applications can compete with services, libraries with plugins, frameworks with development tools, and so on, even if they're written in different programming languages or for different computer architectures.  Goods and services compete even when provided free of charge.  If you market a product as a practical substitute for the software or another product, it definitely competes.
+<% if shield %>Goods and services compete even when they provide functionality through different kinds of interfaces or for different technical platforms.  Applications can compete with services, libraries with plugins, frameworks with development tools, and so on, even if they're written in different programming languages or for different computer architectures.  Goods and services compete even when provided free of charge.  If you market a product as a practical substitute for the software or another product, it definitely competes.<% end %>
+<% if perimeter %>If you use the software to market a product as a substitute for the functionality or value of the software, it competes with the software. A product may compete regardless how it is designed or deployed. For example, a product may compete even if it provides its functionality via any kind of interface (including services, libraries or plug-ins), even if it is ported to a different platform or programming language, and even if it is provided free of charge.<% end %>
 <% end %>
 
 <% if shield %>
@@ -83,6 +50,24 @@ You may begin using the software to compete with a product or service that the l
 
 If the licensor or any of its affiliates sells a line of business developing the software or using the software to provide a product, the buyer can also enforce [Noncompete](#noncompete) for that product.
 <% end %>
+
+<%# License Grants %>
+
+## Copyright License
+
+The licensor grants you a copyright license for the software to make copies as needed to run the software<% if change %>, to make changes to the software<% end %><% if distribute %>, and to share copies and changes with others<% end %>.
+
+<% if distribute %>
+## Notices
+
+You must ensure that anyone who gets a copy of any part of the software from you also gets a copy of these terms or the URL for them above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with the software.  For example:
+
+> Required Notice: Copyright Yoyodyne, Inc. (http://example.com)
+<% end %>
+
+## Patent License
+
+The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.
 
 ## Fair Use
 
