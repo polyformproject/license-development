@@ -11,7 +11,7 @@ In order to get this license for this software, you have to agree to all its ter
 <% if noncommercial or strict %>
 ## Noncommercial
 
-This license allows you to use the software for noncommercial purposes only.
+This license allows you to use<% if noncommercial %>, change, and share<% end %> the software for noncommercial purposes only.
 
 ## Personal Uses
 
