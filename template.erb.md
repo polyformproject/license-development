@@ -71,7 +71,7 @@ If the licensor or any of its affiliates sells a line of business developing thi
 
 ## Copyright License
 
-The licensor gives you permission under copyrights in this software to make copies as needed to run this software<% if change %>, make changes to this software<% end %><% if distribute %>, and share copies and changes with others<% end %>.
+The licensor gives you permission under copyrights in this software to make copies as needed to run this software<% if change %><% if distribute %>, <% else %> and<% end %> to make changes to this software<% end %><% if distribute %>, and to share copies and changes with others<% end %>.
 
 <% if distribute %>
 ## Notices
