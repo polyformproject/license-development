@@ -6,7 +6,7 @@ Working Draft
 
 ## Acceptance
 
-In order to get any license under these terms, you must agree to them as both strict obligations and conditions to all your licenses.
+In order to get this license for this software, you have to agree to all its terms.
 
 ## Copyright License
 
@@ -113,6 +113,10 @@ These terms do not allow you to sublicense or transfer any of your licenses to a
 ## Patent Defense
 
 If you make any written claim that the software infringes or contributes to infringement of any patent, your patent license for the software granted under these terms ends immediately. If your company makes such a claim, your patent license ends immediately for work on behalf of your company.
+
+## Conditions
+
+The terms of this license are both obligations and conditions.
 
 ## Violations
 
