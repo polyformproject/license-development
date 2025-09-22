@@ -99,10 +99,6 @@ These terms do not allow you to sublicense or transfer any of your licenses to a
 
 If you make any written claim that the software infringes or contributes to infringement of any patent, your patent license for the software granted under these terms ends immediately. If your company makes such a claim, your patent license ends immediately for work on behalf of your company.
 
-## Conditions
-
-The terms of this license are both obligations and conditions.
-
 ## Violations
 
 The first time you are notified in writing that you have violated any of these terms, or done anything with the software not covered by your licenses, your licenses can nonetheless continue if you come into full compliance with these terms, and take practical steps to correct past violations, within 30 days of receiving notice.  Otherwise, all your licenses end immediately.
