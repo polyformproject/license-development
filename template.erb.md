@@ -31,7 +31,7 @@ The licenses under these terms allow you to use<% if noncommercial %>, change, a
 
 ## Personal Uses
 
-Use for noncommercial purposes includes personal use for research, experiment, and testing for the benefit of public knowledge, personal study, private entertainment, hobby projects, amateur pursuits, or religious observance, without any anticipated commercial application.
+Use for noncommercial purposes includes personal use for research, experiment, and testing for the benefit of public knowledge, study, private entertainment, hobby projects, amateur pursuits, and religious observance.
 
 ## Noncommercial Organizations
 
