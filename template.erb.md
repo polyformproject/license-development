@@ -13,7 +13,7 @@ In order to get this license for the software, you have to agree to all its term
 <% if noncommercial or strict %>
 ## Noncommercial Use
 
-This license allows you to use<% if noncommercial %>, change, and share<% end %> the software for noncommercial purposes only.
+The licenses under these terms allow you to use<% if noncommercial %>, change, and share<% end %> the software for noncommercial purposes only.
 
 ## Personal Uses
 
@@ -27,7 +27,7 @@ Use for noncommercial purposes includes use by any charitable organization, educ
 <% if perimeter or shield %>
 ## Noncompetitive Use
 
-This license allows you to use, change, and share the software for any purpose other than providing any product that competes with the software<% if shield %> or any product the licensor or any of its affiliates provides using the software<% end %>.
+The licenses under these terms allow you to use, change, and share the software for any purpose other than providing any product that competes with the software<% if shield %> or any product the licensor or any of its affiliates provides using the software<% end %>.
 
 ## Competition
 
