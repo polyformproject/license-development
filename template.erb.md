@@ -6,28 +6,30 @@ Working Draft
 
 <%# Headline Permission Provisions %>
 
+<% lets_you = 'This license lets you' %>
+
 <% if smallbusiness %>
 ## Small Business Use
 
-This license lets you use this software for the benefit of your company so long as it has fewer than 100 total individuals working as employees and independent contractors and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
+<%= lets_you %> use this software for the benefit of your company so long as it has fewer than 100 total individuals working as employees and independent contractors and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
 <% end %>
 
 <% if internaluse %>
 ## Internal Business Use
 
-This lets you use and change this software only for the internal business operations of you and your company only.
+<%= lets_you %> use and change this software only for the internal business operations of you and your company only.
 <% end %>
 
 <% if freetrial %>
 ## Free Trial
 
-This license lets you use and change this software for yourself or your company for 30 consecutive calendar days to evaluate whether this software suits a particular application.
+<%= lets_you %> use and change this software for yourself or your company for 30 consecutive calendar days to evaluate whether this software suits a particular application.
 <% end %>
 
 <% if noncommercial or strict %>
 ## Noncommercial Use
 
-This license lets you use<% if noncommercial %>, change, and share<% end %> this software only for noncommercial purposes.
+<%= lets_you %> use<% if noncommercial %>, change, and share<% end %> this software only for noncommercial purposes.
 
 ## Personal Uses
 
