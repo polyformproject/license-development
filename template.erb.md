@@ -47,8 +47,8 @@ Noncommercial purposes include use on behalf of any charitable organization, edu
 
 ## Competition
 
-<% if shield %>Goods and services compete even when they provide functionality through different kinds of interfaces or for different technical platforms. Applications can compete with services, libraries with plugins, frameworks with development tools, and so on, even if they're written in different programming languages or for different computer architectures.  Goods and services compete even when provided free of charge.  If you market a product as a practical substitute for this software or another product, it definitely competes.<% end %>
-<% if perimeter %>If you use this software to market a product as a substitute for the functionality or value of this software, it competes with this software. A product may compete regardless how it is designed or deployed. For example, a product may compete even if it provides its functionality via any kind of interface (including services, libraries or plug-ins), even if it is ported to a different platform or programming language, and even if it is provided free of charge.<% end %>
+<% if shield %>Goods and services compete even when they provide functionality through different kinds of interfaces or for different technical platforms.  Applications can compete with services, libraries with plugins, frameworks with development tools, and so on, even if they're written in different programming languages or for different computer architectures.  Goods and services compete even when provided free of charge.  If you market a product as a practical substitute for this software or another product, it definitely competes.<% end %>
+<% if perimeter %>If you use this software to market a product as a substitute for the functionality or value of this software, it competes with this software.  A product may compete regardless how it is designed or deployed.  For example, a product may compete even if it provides its functionality via any kind of interface (including services, libraries or plug-ins), even if it is ported to a different platform or programming language, and even if it is provided free of charge.<% end %>
 <% end %>
 
 <% if shield %>
@@ -87,7 +87,7 @@ The licensor gives you permission under any patent claims the licensor can licen
 
 ## Fair Use
 
-You may have "fair use" rights for this software under the law. This license doesn't limit those rights.
+You may have "fair use" rights for this software under the law.  This license doesn't limit those rights.
 
 ## No Other Rights
 
@@ -95,7 +95,7 @@ This license doesn't let you sublicense or give your license for this software t
 
 ## Patent Defense
 
-If you make any claim in writing that this software infringes or contributes to infringement of any patent, your patent permission for this software under this license ends immediately. If your company makes a claim, the patent part of your license ends immediately for work on behalf of your company.
+If you make any claim in writing that this software infringes or contributes to infringement of any patent, your patent permission for this software under this license ends immediately.  If your company makes a claim, the patent part of your license ends immediately for work on behalf of your company.
 
 ## Violations
 
