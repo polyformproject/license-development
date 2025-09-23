@@ -37,7 +37,7 @@ Noncommercial purposes include research, experiment, and testing for the benefit
 
 ## Noncommercial Organizations
 
-Noncommercial purposes include use on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution, regardless of how that use is funded or any conditions of funding.
+Noncommercial purposes include use on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution.
 <% end %>
 
 <% if perimeter or shield %>
