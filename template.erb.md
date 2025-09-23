@@ -119,22 +119,20 @@ The first time you get notified in writing that you've violated any term of this
 
 The **licensor** is the individual or entity offering this license.
 
-**You** refers to the individual or entity agreeing to these terms.
+**You** are the individual or entity agreeing to these terms.
 
 <% if shield or perimeter %>
-A **product** can be a good or service, or a combination of them.
+A **product** can be a good, service, or a combination of them.
 <% end %>
 
 <% if shield %>
 **Your company** is any legal entity, sole proprietorship, or other kind of organization that you work for, plus all its affiliates.
 
-**Affiliates** means the other organizations than an organization has control over, is under the control of, or is under common control with.
-
-**Control** means ownership of substantially all the assets of an entity, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
+**Affiliates** are all the other organizations that an organization has control over, is under the control of, or is under common control with.
 <% else %>
 **Your company** is any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization.
-
-**Control** means ownership of substantially all the assets of an entity, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
 <% end %>
 
-**Use** means anything you do with this software requiring a license under copyright or patent law.
+**Control** is ownership of substantially all the assets of an organization, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
+
+**Use** is anything you do with this software requiring a license under copyright or patent law.
