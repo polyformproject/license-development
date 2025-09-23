@@ -10,24 +10,32 @@ Working Draft
 
 <% if smallbusiness %>
 ## Small Business Use
+<% scope_heading = 'Small Business Use' %>
+<% scope_id = 'small-business-use' %>
 
 <%= lets_you %> run this software for the benefit of your company so long as it has fewer than 100 total individuals working as employees and independent contractors and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
 <% end %>
 
 <% if internaluse %>
 ## Internal Business Use
+<% scope_heading = 'Internal Business Use' %>
+<% scope_id = 'internal-business-use' %>
 
 <%= lets_you %> run and change this software only for the internal business operations of you and your company only.
 <% end %>
 
 <% if freetrial %>
 ## Free Trial
+<% scope_heading = 'Free Trial' %>
+<% scope_id = 'free-trial' %>
 
 <%= lets_you %> run and change this software for yourself or your company for 30 consecutive calendar days to evaluate whether this software suits a particular application.
 <% end %>
 
 <% if noncommercial or strict %>
 ## Noncommercial Use
+<% scope_heading = 'Noncommercial Use' %>
+<% scope_id = 'noncommercial-use' %>
 
 <%= lets_you %> run<% if noncommercial %>, change, and share<% end %> this software only for noncommercial purposes.
 
@@ -42,6 +50,8 @@ Noncommercial purposes include use on behalf of any charitable organization, edu
 
 <% if perimeter or shield %>
 ## Noncompetitive Use
+<% scope_heading = 'Noncompetitive Use' %>
+<% scope_id = 'noncompetitive-use' %>
 
 <%= lets_you %> run, change, and share this software for any purpose except providing any product that competes with this software<% if shield %> or any product the licensor or any of its affiliates provides using this software<% end %>.
 
@@ -71,7 +81,7 @@ If the licensor or any of its affiliates sells a line of business developing thi
 
 ## Copyrights
 
-The licensor gives you permission under its copyrights in this software to make copies as needed to run this software<% if change %><% if distribute %>, <% else %> and <% end %>to make changes to this software<% end %><% if distribute %>, and to share copies and changes with others<% end %>, all according to the terms of this license.
+The licensor gives you permission under its copyrights in this software to make copies as needed to run this software<% if change %><% if distribute %>, <% else %> and <% end %>to make changes to this software<% end %><% if distribute %>, and to share copies and changes with others<% end %><% if distribute %>, in each case<% end %> under [<%= scope_heading %>](#<%= scope_id %>).
 
 <% if distribute %>
 ## Notices
@@ -83,7 +93,7 @@ Make sure anyone who gets a copy of any part of this software from you also gets
 
 ## Patents
 
-The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software according to the terms of this license.
+The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if distribute %>, in each case<% end %> under [<%= scope_heading %>](#<%= scope_id %>).
 
 ## Fair Use
 
