@@ -71,7 +71,7 @@ If the licensor or any of its affiliates sells a line of business developing thi
 
 ## Copyrights
 
-The licensor gives you permission under its copyrights in this software to make copies as needed to run this software<% if change %><% if distribute %>, <% else %> and<% end %> to make changes to this software<% end %><% if distribute %>, and to share copies and changes with others<% end %>.
+The licensor gives you permission under its copyrights in this software to make copies as needed to run this software<% if change %><% if distribute %>, <% else %> and <% end %>to make changes to this software<% end %><% if distribute %>, and to share copies and changes with others<% end %>, all according to the terms of this license.
 
 <% if distribute %>
 ## Notices
@@ -83,7 +83,7 @@ Make sure anyone who gets a copy of any part of this software from you also gets
 
 ## Patents
 
-The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by using this software according to this license.
+The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software according to the terms of this license.
 
 ## Fair Use
 
