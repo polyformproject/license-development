@@ -6,7 +6,7 @@ Working Draft
 
 <%# Headline Permission Provisions %>
 
-<% lets_you = 'This license lets you' %>
+<% lets_you = 'The licensor gives you permission to' %>
 
 <% if smallbusiness %>
 ## Small Business Use
