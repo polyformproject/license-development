@@ -105,11 +105,11 @@ The licensor does not give you permission to sublicense or give your license for
 
 ## Patent Defense
 
-If you make any claim in writing that this software infringes or contributes to infringement of any patent, your patent permission for this software under this license ends immediately.  If your company makes a claim, the patent part of your license ends immediately for work on behalf of your company.
+If you make any claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately.  If your company makes a claim, your patent permission ends immediately for work on behalf of your company.
 
 ## Violations
 
-The first time you get notified in writing that you've violated any term of this license, or gone beyond the permissions given under it, your license can nonetheless continue if you come into full compliance with these terms, and take practical steps to correct past violations, within 30 days of receiving notice.  Otherwise, both the copyright and patent parts of this your license end immediately.
+The first time you get notified in writing that you've violated any term of this license, or used the software beyond the permission given, your license can nonetheless continue if you come into full compliance with these terms, and take practical steps to correct past violations, within 30 days of receiving notice.  Otherwise, both your copyright and patent permission under this license end immediately.
 
 ## No Liability
 
