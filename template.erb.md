@@ -19,7 +19,7 @@ You may run this software for the benefit of your company so long as it has fewe
 <% scope_heading = 'Internal Business Use' %>
 <% scope_id = 'internal-business-use' %>
 
-You may run and make changes to this software only for the internal business operations of you and your company only.
+You may run and make changes to this software only for the internal business operations of you and your company.
 <% end %>
 
 <% if freetrial %>
