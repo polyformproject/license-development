@@ -117,7 +117,7 @@ The first time you're told in writing that you've violated any term of this lice
 
 The **licensor** is the individual or entity offering this license.
 
-**You** are the individual or entity agreeing to these terms.
+**You** are the individual or legal entity agreeing to these terms.
 
 <% if shield or perimeter %>
 A **product** can be a good, service, or a combination of them.
