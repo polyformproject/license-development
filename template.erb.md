@@ -103,7 +103,7 @@ You may not sublicense or transfer your license for the software to anyone else.
 
 ## Patent Defense
 
-If you make any claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately.  If your company makes a claim, your patent permission ends immediately for work on behalf of your company.
+If you claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately.  If your company makes a claim, your patent permission ends immediately for work on behalf of your company.
 
 ## Violations
 
