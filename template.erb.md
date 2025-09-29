@@ -73,6 +73,13 @@ You may begin using this software to compete with a product or service that the 
 ## Sales of Business
 
 If the licensor or any of its affiliates sells a line of business developing this software or using this software to provide a product, the buyer can also enforce [Noncompete](#noncompete) for that product.
+
+<% end %>
+
+<% if shield or perimeter %>
+## Products
+
+Throughout this license, _product_ is used to mean a good, service, or combination of them.
 <% end %>
 
 <%# License Grants %>
@@ -113,24 +120,6 @@ The first time you're told in writing that you've violated any term of this lice
 
 ***As far as the law allows, this software comes as is, without any warranty or condition, and the licensor will not be liable to you for any legal damages arising out of this license or the use or nature of this software, under any kind of legal claim.***
 
-## Definitions
+## You and Your Company
 
-The **licensor** is the individual or entity offering this license.
-
-**You** are the individual or legal entity agreeing to these terms.
-
-<% if shield or perimeter %>
-A **product** can be a good, service, or a combination of them.
-<% end %>
-
-<% if shield %>
-**Your company** is any legal entity, sole proprietorship, or other kind of organization that you work for, plus all its affiliates.
-
-**Affiliates** are all the other organizations that an organization has control over, is under the control of, or is under common control with.
-<% else %>
-**Your company** is any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization.
-<% end %>
-
-**Control** is ownership of substantially all the assets of an organization, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
-
-**Use** is anything you do with this software requiring a license under copyright or patent law.
+Throughout this license, _you_ refers to the individual or legal entity agreeing to these terms, and _your company_ refers to any legal entity, sole proprietorship, or other kind of organization that you work for, plus all of its affiliates, plus all organizations that have control over, are under the control of, or are under common control with that organization.  _Control_ means ownership of substantially all the assets of an organization, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
