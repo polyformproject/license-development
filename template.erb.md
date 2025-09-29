@@ -6,14 +6,12 @@ Working Draft
 
 <%# Headline Permission Provisions %>
 
-<% lets_you = 'You may' %>
-
 <% if smallbusiness %>
 ## Small Business Use
 <% scope_heading = 'Small Business Use' %>
 <% scope_id = 'small-business-use' %>
 
-<%= lets_you %> run this software for the benefit of your company so long as it has fewer than 100 total individuals working as employees and independent contractors and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
+You may run this software for the benefit of your company so long as it has fewer than 100 total individuals working as employees and independent contractors and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
 <% end %>
 
 <% if internaluse %>
@@ -21,7 +19,7 @@ Working Draft
 <% scope_heading = 'Internal Business Use' %>
 <% scope_id = 'internal-business-use' %>
 
-<%= lets_you %> run and make changes to this software only for the internal business operations of you and your company only.
+You may run and make changes to this software only for the internal business operations of you and your company only.
 <% end %>
 
 <% if freetrial %>
@@ -29,7 +27,7 @@ Working Draft
 <% scope_heading = 'Free Trial' %>
 <% scope_id = 'free-trial' %>
 
-<%= lets_you %> run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular use or project.  <%= lets_you %> try this software for multiple different uses and projects for 30 days each.
+You may run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular use or project.  You may try this software for multiple different uses and projects for 30 days each.
 <% end %>
 
 <% if noncommercial or strict %>
@@ -37,7 +35,7 @@ Working Draft
 <% scope_heading = 'Noncommercial Use' %>
 <% scope_id = 'noncommercial-use' %>
 
-<%= lets_you %> run<% if noncommercial %>, make changes to, and share<% end %> this software only for noncommercial purposes.
+You may run<% if noncommercial %>, make changes to, and share<% end %> this software only for noncommercial purposes.
 
 ## Personal Uses
 
@@ -53,7 +51,7 @@ Noncommercial purposes include use on behalf of any charitable organization, edu
 <% scope_heading = 'Noncompetitive Use' %>
 <% scope_id = 'noncompetitive-use' %>
 
-<%= lets_you %> run, make changes to, and share this software for any purpose except providing any product that competes with this software<% if shield %> or any product the licensor or any of its affiliates provides using this software<% end %>.
+You may run, make changes to, and share this software for any purpose except providing any product that competes with this software<% if shield %> or any product the licensor or any of its affiliates provides using this software<% end %>.
 
 ## Competition
 
