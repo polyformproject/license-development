@@ -27,7 +27,7 @@ You may run and make changes to this software only for the internal business ope
 <% scope_heading = 'Free Trial' %>
 <% scope_id = 'free-trial' %>
 
-You may run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular use or project.  You may try this software for multiple different uses and projects for 30 days each.
+You may run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular need or project.  You may try this software for multiple different needs and projects for 30 days each.
 <% end %>
 
 <% if noncommercial or strict %>
