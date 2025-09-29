@@ -81,7 +81,7 @@ If the licensor or any of its affiliates sells a line of business developing thi
 
 ## Copyrights
 
-The licensor gives you permission under its copyrights in this software to make copies as needed to run this software<% if change %><% if distribute %>, <% else %> and <% end %>to make changes to this software<% end %><% if distribute %>, and to share copies and changes with others<% end %><% if distribute %>, in each case<% end %> under [<%= scope_heading %>](#<%= scope_id %>).
+The licensor gives you permission under its copyrights in this software to make copies as needed to run this software<% if change %><% if distribute %>, <% else %> and <% end %>to make changes to this software<% end %><% if distribute %>, and to share copies and changes with others<% end %><% if change %>, in each case<% end %> under [<%= scope_heading %>](#<%= scope_id %>).
 
 <% if distribute %>
 ## Notices
