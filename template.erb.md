@@ -79,7 +79,7 @@ If the licensor or any of its affiliates sells a line of business developing thi
 
 ## Copyrights
 
-The licensor gives you permission under its copyrights in this software to run<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, in each case<% end %> according to [<%= scope_heading %>](#<%= scope_id %>).
+The licensor gives you permission under its copyrights in this software to run<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, but only<% end %> as allowed by [<%= scope_heading %>](#<%= scope_id %>).
 
 <% if distribute %>
 ## Notices
@@ -91,7 +91,7 @@ Make sure anyone who gets a copy of any part of this software from you also gets
 
 ## Patents
 
-The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, in each case<% end %> according to [<%= scope_heading %>](#<%= scope_id %>).
+The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, but only<% end %> as allowed by [<%= scope_heading %>](#<%= scope_id %>).
 
 ## Fair Use
 
