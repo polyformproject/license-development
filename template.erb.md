@@ -21,7 +21,7 @@ Working Draft
 <% scope_heading = 'Internal Business Use' %>
 <% scope_id = 'internal-business-use' %>
 
-<%= lets_you %> run and change this software only for the internal business operations of you and your company only.
+<%= lets_you %> run and make changes to this software only for the internal business operations of you and your company only.
 <% end %>
 
 <% if freetrial %>
@@ -29,7 +29,7 @@ Working Draft
 <% scope_heading = 'Free Trial' %>
 <% scope_id = 'free-trial' %>
 
-<%= lets_you %> run and change this software for yourself or your company for 30 consecutive calendar days to evaluate whether this software suits a particular application.
+<%= lets_you %> run and make changes to this software for yourself or your company for 30 consecutive calendar days to evaluate whether this software suits a particular application.
 <% end %>
 
 <% if noncommercial or strict %>
