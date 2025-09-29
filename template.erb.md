@@ -29,7 +29,7 @@ Working Draft
 <% scope_heading = 'Free Trial' %>
 <% scope_id = 'free-trial' %>
 
-<%= lets_you %> run and make changes to this software for yourself or your company for 30 calendar days in a row to find out whether this software will work for a particular application.
+<%= lets_you %> run and make changes to this software for yourself or your company for 30 calendar days in a row to find out whether this software will work for a particular use or project.
 <% end %>
 
 <% if noncommercial or strict %>
