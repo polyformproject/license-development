@@ -37,7 +37,7 @@ Working Draft
 <% scope_heading = 'Noncommercial Use' %>
 <% scope_id = 'noncommercial-use' %>
 
-<%= lets_you %> run<% if noncommercial %>, change, and share<% end %> this software only for noncommercial purposes.
+<%= lets_you %> run<% if noncommercial %>, make changes to, and share<% end %> this software only for noncommercial purposes.
 
 ## Personal Uses
 
@@ -53,7 +53,7 @@ Noncommercial purposes include use on behalf of any charitable organization, edu
 <% scope_heading = 'Noncompetitive Use' %>
 <% scope_id = 'noncompetitive-use' %>
 
-<%= lets_you %> run, change, and share this software for any purpose except providing any product that competes with this software<% if shield %> or any product the licensor or any of its affiliates provides using this software<% end %>.
+<%= lets_you %> run, make changes to, and share this software for any purpose except providing any product that competes with this software<% if shield %> or any product the licensor or any of its affiliates provides using this software<% end %>.
 
 ## Competition
 
@@ -81,7 +81,7 @@ If the licensor or any of its affiliates sells a line of business developing thi
 
 ## Copyrights
 
-The licensor gives you permission under its copyrights in this software to make copies as needed to run this software<% if change %><% if distribute %>, <% else %> and <% end %>to make changes to this software<% end %><% if distribute %>, and to share copies and changes with others<% end %><% if change %>, in each case<% end %> under [<%= scope_heading %>](#<%= scope_id %>).
+The licensor gives you permission under its copyrights in this software to run<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, in each case<% end %> according to [<%= scope_heading %>](#<%= scope_id %>).
 
 <% if distribute %>
 ## Notices
@@ -93,7 +93,7 @@ Make sure anyone who gets a copy of any part of this software from you also gets
 
 ## Patents
 
-The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, in each case<% end %> under [<%= scope_heading %>](#<%= scope_id %>).
+The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, in each case<% end %> according to [<%= scope_heading %>](#<%= scope_id %>).
 
 ## Fair Use
 
