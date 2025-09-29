@@ -93,7 +93,7 @@ Make sure anyone who gets a copy of any part of this software from you also gets
 
 ## Patents
 
-The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if distribute %>, in each case<% end %> under [<%= scope_heading %>](#<%= scope_id %>).
+The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, in each case<% end %> under [<%= scope_heading %>](#<%= scope_id %>).
 
 ## Fair Use
 
