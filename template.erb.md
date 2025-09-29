@@ -99,7 +99,7 @@ This license doesn't limit any "fair use" under copyright law.
 
 ## No Other Rights
 
-The licensor does not give you permission to sublicense or give your license for this software to anyone else.  The terms of this license aren't meant to imply any other licenses not explicitly mentioned.
+You may not sublicense or transfer your license for the software to anyone else.  The terms of this license don't imply any other licenses not spelled out.
 
 ## Patent Defense
 
