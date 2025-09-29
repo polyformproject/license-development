@@ -95,7 +95,7 @@ The licensor gives you permission under any patent claims it can license, or bec
 
 ## Fair Use
 
-You may have "fair use" rights for this software under the law.  This license doesn't limit those rights.
+This license doesn't limit any "fair use" under copyright law.
 
 ## No Other Rights
 
