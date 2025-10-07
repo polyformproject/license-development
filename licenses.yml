@@ -40,3 +40,9 @@ noncommercial:
   slug: noncommercial
   change: yes
   distribute: yes
+personaluse:
+  title: Personal Use
+  file: Personal-Use
+  slug: personal-use
+  change: yes
+  distribute: yes

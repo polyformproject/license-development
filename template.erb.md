@@ -30,6 +30,8 @@ You may run and make changes to this software only for the internal business ope
 You may run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular need or project.  You may try this software for multiple different needs and projects for 30 days each.
 <% end %>
 
+<% personal_uses = 'Noncommercial purposes include research, experiment, and testing for the benefit of public knowledge, education, private entertainment, hobby projects, amateur pursuits, and religious observance.' %>
+
 <% if noncommercial or strict %>
 ## Noncommercial Use
 <% scope_heading = 'Noncommercial Use' %>
@@ -39,11 +41,19 @@ You may run<% if noncommercial %>, make changes to, and share<% end %> this soft
 
 ## Personal Uses
 
-Noncommercial purposes include research, experiment, and testing for the benefit of public knowledge, education, private entertainment, hobby projects, amateur pursuits, and religious observance.
+<%= personal_uses %>
 
 ## Noncommercial Organizations
 
 Noncommercial purposes include use on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution.
+<% end %>
+
+<% if personaluse %>
+## Personal Use
+<% scope_heading = 'Personal Use' %>
+<% scope_id = 'personal-use' %>
+
+You may run, make changes to, and share this software only for personal noncommercial purposes unaffiliated with any organization.  <%= personal_uses %>
 <% end %>
 
 <% if perimeter or shield %>
