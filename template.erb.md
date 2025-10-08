@@ -6,12 +6,21 @@ Working Draft
 
 <%# Headline Permission Provisions %>
 
+<% def business (headcount, revenue) "You may run this software for the benefit of your company so long as it has fewer than #{headcount} total individuals working as employees and independent contractors and less than #{revenue} USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base." end %>
+
 <% if smallbusiness %>
 ## Small Business Use
 <% scope_heading = 'Small Business Use' %>
 <% scope_id = 'small-business-use' %>
+<%= business('50', '10,000,000') %>
+<% end %>
 
-You may run this software for the benefit of your company so long as it has fewer than 100 total individuals working as employees and independent contractors and less than 1,000,000 USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
+<% if microbusiness %>
+## Micro Business Use
+<% scope_heading = 'Micro Business Use' %>
+<% scope_id = 'micro-business-use' %>
+<% scope_id = 'small-business-use' %>
+<%= business('10', '2,000,000') %>
 <% end %>
 
 <% if internaluse %>

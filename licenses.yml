@@ -28,6 +28,12 @@ smallbusiness:
   slug: small-business
   change: yes
   distribute: yes
+microbusiness:
+  title: Micro Business
+  file: Micro-Business
+  slug: micro-business
+  change: yes
+  distribute: yes
 strict:
   title: Strict
   file: Strict
