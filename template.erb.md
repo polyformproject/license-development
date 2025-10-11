@@ -54,7 +54,7 @@ You may run<% if noncommercial %>, make changes to, and share<% end %> this soft
 
 ## Noncommercial Organizations
 
-Noncommercial purposes include use on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution.
+Noncommercial purposes include work on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution.
 <% end %>
 
 <% if personaluse %>
@@ -125,15 +125,15 @@ This license doesn't limit "fair use" under copyright law.
 
 ## No Other Rights
 
-You may not sublicense or transfer your license for the software to anyone else.  The terms of this license don't imply any other licenses not spelled out.
+You may not sublicense or transfer your license for the software to anyone else.  The terms of this license don't imply any other licenses.
 
 ## Patent Defense
 
-If you claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately.  If your company makes a claim, your patent permission ends immediately for work on behalf of your company.
+If you claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately.  If your company claims in writing that this software infringes or contributes to infringement of any patent, your patent permission ends immediately for work on behalf of your company.
 
 ## Violations
 
-The first time you're told in writing that you've violated any term of this license, or used this software without permission, your license can nonetheless continue if you come into full compliance with this license, and take practical steps to correct past violations, within 30 days.  Otherwise, your copyright and patent permission under this license ends immediately.
+The first time the licensor warns you in writing that you've violated any term of this license, or used this software in a way this license doesn't allow, your license can nonetheless continue if you come into full compliance with this license, and take practical steps to correct past violations, within 30 days.  Otherwise, your copyright and patent permission under this license ends immediately.
 
 ## No Liability
 
