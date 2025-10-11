@@ -6,13 +6,19 @@ Working Draft
 
 <%# Headline Permission Provisions %>
 
-<% def business (headcount, revenue) "You may run this software for the benefit of your company so long as it has fewer than #{headcount} total individuals working as employees and independent contractors and less than #{revenue} USD (2019) total revenue in the prior tax year.  Adjust this revenue threshold for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base." end %>
+<% def business (headcount, revenue, assets) "You may run this software for the benefit of your company so long as it has fewer than #{headcount} total individuals working as employees and independent contractors, less than #{revenue} USD (2019) total gross revenue in the last tax year, and less than #{assets} USD (2019) total assets as of the end of the last tax year.
+
+<!-- Note: The phrase 'your company' is defined to include afiliates in the 'You and Your Company' section below. -->
+
+Adjust these dollar thresholds for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
+
+If your company is a new company that did not pay tax for the last tax year, you may run this software for the benefit of your company during the current tax year until it exceeds the headcount, revenue, and assets figures above." end %>
 
 <% if smallbusiness %>
 ## Small Business Use
 <% scope_heading = 'Small Business Use' %>
 <% scope_id = 'small-business-use' %>
-<%= business('50', '10,000,000') %>
+<%= business('50', '10,000,000', '10,000,000') %>
 <% end %>
 
 <% if microbusiness %>
@@ -20,7 +26,7 @@ Working Draft
 <% scope_heading = 'Micro Business Use' %>
 <% scope_id = 'micro-business-use' %>
 <% scope_id = 'small-business-use' %>
-<%= business('10', '2,000,000') %>
+<%= business('10', '2,000,000', '2,000,000') %>
 <% end %>
 
 <% if internaluse %>
@@ -141,4 +147,4 @@ The first time the licensor warns you in writing that you've violated any term o
 
 ## You and Your Company
 
-Throughout this license, _you_ refers to the individual or legal entity agreeing to these terms, and _your company_ refers to any legal entity, sole proprietorship, or other kind of organization that you work for, plus all of its affiliates, plus all organizations that have control over, are under the control of, or are under common control with that organization.  _Control_ means ownership of substantially all the assets of an organization, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
+Throughout this license, _you_ refers to the individual or legal entity agreeing to these terms, and _your company_ refers to any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization.  _Control_ means ownership of substantially all the assets of an organization, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
