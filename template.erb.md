@@ -16,26 +16,26 @@ If your company is a new company that did not pay tax for the last tax year, you
 
 <% if smallbusiness %>
 ## Small Business Use
-<% permission_scope = 'for small business use' %>
+<% permission_scope = 'for small business' %>
 <%= business('50', '10,000,000', '10,000,000') %>
 <% end %>
 
 <% if microbusiness %>
 ## Micro Business Use
-<% permission_scope = 'for micro business use' %>
+<% permission_scope = 'for micro business' %>
 <%= business('10', '2,000,000', '2,000,000') %>
 <% end %>
 
 <% if internaluse %>
 ## Internal Business Use
-<% permission_scope = 'for internal business use' %>
+<% permission_scope = 'for internal business' %>
 
 You may run and make changes to this software only for the internal business operations of you and your company.
 <% end %>
 
 <% if freetrial %>
 ## Free Trial
-<% permission_scope = 'for free trial use' %>
+<% permission_scope = 'for free trials' %>
 
 You may run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular need or project.  You may try this software for multiple different needs and projects for 30 days each.
 <% end %>
@@ -59,14 +59,14 @@ Noncommercial purposes include work on behalf of any charitable organization, ed
 
 <% if personaluse %>
 ## Personal Use
-<% permission_scope = 'for personal use' %>
+<% permission_scope = 'for personal noncommercial purposes' %>
 
 You may run, make changes to, and share this software only for personal noncommercial purposes unaffiliated with any organization.  <%= personal_uses %>
 <% end %>
 
 <% if perimeter or shield %>
 ## Noncompetitive Use
-<% permission_scope = 'for noncompetitive use' %>
+<% permission_scope = 'for noncompetitive purposes' %>
 
 You may run, make changes to, and share this software for any purpose except providing any product that competes with this software<% if shield %> or any product the licensor or any of its affiliates provides using this software<% end %>.
 
