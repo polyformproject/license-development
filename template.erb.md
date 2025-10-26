@@ -16,31 +16,26 @@ If your company is a new company that did not pay tax for the last tax year, you
 
 <% if smallbusiness %>
 ## Small Business Use
-<% scope_heading = 'Small Business Use' %>
-<% scope_id = 'small-business-use' %>
+<% permission_scope = 'for small business use' %>
 <%= business('50', '10,000,000', '10,000,000') %>
 <% end %>
 
 <% if microbusiness %>
 ## Micro Business Use
-<% scope_heading = 'Micro Business Use' %>
-<% scope_id = 'micro-business-use' %>
-<% scope_id = 'small-business-use' %>
+<% permission_scope = 'for micro business use' %>
 <%= business('10', '2,000,000', '2,000,000') %>
 <% end %>
 
 <% if internaluse %>
 ## Internal Business Use
-<% scope_heading = 'Internal Business Use' %>
-<% scope_id = 'internal-business-use' %>
+<% permission_scope = 'for internal business use' %>
 
 You may run and make changes to this software only for the internal business operations of you and your company.
 <% end %>
 
 <% if freetrial %>
 ## Free Trial
-<% scope_heading = 'Free Trial' %>
-<% scope_id = 'free-trial' %>
+<% permission_scope = 'for free trial use' %>
 
 You may run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular need or project.  You may try this software for multiple different needs and projects for 30 days each.
 <% end %>
@@ -49,8 +44,7 @@ You may run and make changes to this software for yourself or your company for 3
 
 <% if noncommercial or strict %>
 ## Noncommercial Use
-<% scope_heading = 'Noncommercial Use' %>
-<% scope_id = 'noncommercial-use' %>
+<% permission_scope = 'for noncommercial purposes' %>
 
 You may run<% if noncommercial %>, make changes to, and share<% end %> this software only for noncommercial purposes.
 
@@ -65,16 +59,14 @@ Noncommercial purposes include work on behalf of any charitable organization, ed
 
 <% if personaluse %>
 ## Personal Use
-<% scope_heading = 'Personal Use' %>
-<% scope_id = 'personal-use' %>
+<% permission_scope = 'for personal use' %>
 
 You may run, make changes to, and share this software only for personal noncommercial purposes unaffiliated with any organization.  <%= personal_uses %>
 <% end %>
 
 <% if perimeter or shield %>
 ## Noncompetitive Use
-<% scope_heading = 'Noncompetitive Use' %>
-<% scope_id = 'noncompetitive-use' %>
+<% permission_scope = 'for noncompetitive use' %>
 
 You may run, make changes to, and share this software for any purpose except providing any product that competes with this software<% if shield %> or any product the licensor or any of its affiliates provides using this software<% end %>.
 
@@ -111,7 +103,7 @@ Throughout this license, _product_ is used to mean a good, service, or combinati
 
 ## Copyrights
 
-The licensor gives you permission under its copyrights in this software to run<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, but only<% end %> as allowed by [<%= scope_heading %>](#<%= scope_id %>).
+The licensor gives you permission under its copyrights in this software to run<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, but only<% end %> <%= permission_scope %>.
 
 <% if distribute %>
 ## Notices
@@ -123,7 +115,7 @@ Make sure anyone who gets a copy of any part of this software from you also gets
 
 ## Patents
 
-The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, but only<% end %> as allowed by [<%= scope_heading %>](#<%= scope_id %>).
+The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, but only<% end %> [<%= permission_scope %>.
 
 ## Fair Use
 
