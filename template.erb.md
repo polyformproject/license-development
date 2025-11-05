@@ -40,13 +40,13 @@ You may run and make changes to this software only for the internal business ope
 You may run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular need or project.  You may try this software for multiple different needs and projects for 30 days each.
 <% end %>
 
-<% personal_uses = 'Noncommercial purposes include research, experiment, and testing for the benefit of public knowledge, education, private entertainment, hobby projects, amateur pursuits, and religious observance.' %>
+<% personal_uses = 'Research, experiment, and testing for the benefit of public knowledge, education, private entertainment, hobby projects, amateur pursuits, and religious observance are all noncommercial uses.' %>
 
 <% if noncommercial or strict %>
 ## Noncommercial Use
-<% permission_scope = 'for noncommercial purposes' %>
+<% permission_scope = 'for noncommercial uses' %>
 
-You may run<% if noncommercial %>, make changes to, and share<% end %> this software only for noncommercial purposes.
+This license gives you free permission for this software, but only for noncommercial uses. The next two sections give examples of noncommercial uses, but do not rule out others.
 
 ## Personal Uses
 
@@ -54,14 +54,14 @@ You may run<% if noncommercial %>, make changes to, and share<% end %> this soft
 
 ## Noncommercial Organizations
 
-Noncommercial purposes include work on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution.
+Work on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution are all noncommercial uses.
 <% end %>
 
 <% if personaluse %>
 ## Personal Use
-<% permission_scope = 'for personal noncommercial purposes' %>
+<% permission_scope = 'for personal noncommercial uses' %>
 
-You may run, make changes to, and share this software only for personal noncommercial purposes unaffiliated with any organization.  <%= personal_uses %>
+You may run, make changes to, and share this software only for personal noncommercial uses unaffiliated with any organization.  <%= personal_uses %>
 <% end %>
 
 <% if perimeter or shield %>
@@ -83,9 +83,7 @@ If you are using this software to provide a product that does not compete, but t
 
 ## Discontinued Products
 
-You may begin using this software to compete with a product or service that the licensor or any of its affiliates has stopped providing, unless the licensor includes a plain-text line beginning with `Licensor Line of Business:` with this software that mentions that line of business.  For example:
-
-> Licensor Line of Business: YoyodyneCMS Content Management System (http://example.com/cms)
+You may begin using this software to compete with a product or service that the licensor or any of its affiliates has stopped providing, unless the licensor includes a plain-text line beginning with `Licensor Line of Business:` with this software that mentions that line of business.
 
 ## Sales of Business
 
@@ -103,40 +101,38 @@ Throughout this license, _product_ is used to mean a good, service, or combinati
 
 ## Copyrights
 
-The licensor gives you permission under its copyrights in this software to run<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, but only<% end %> <%= permission_scope %>.
+The licensor gives you permission under its copyrights in this software to run, make copies of<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, but only<% end %> <%= permission_scope %>.
+
+## Patents
+
+The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running, copying<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, but only<% end %> <%= permission_scope %>.
 
 <% if distribute %>
 ## Notices
 
-Make sure anyone who gets a copy of any part of this software from you also gets a copy of this license or the URL for it above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with this software.  For example:
-
-> Required Notice: Copyright Yoyodyne, Inc. (http://example.com)
+Make sure anyone who gets a copy of this software from you also gets a copy of this license or the URL for it above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with this software.
 <% end %>
-
-## Patents
-
-The licensor gives you permission under any patent claims it can license, or becomes able to license, that you would infringe by running<% if change %><% if distribute %>, <% else %> or <% end %>changing<% if distribute %>, or sharing<% end %><% end %> this software<% if change %>, but only<% end %> [<%= permission_scope %>.
 
 ## Fair Use
 
-This license doesn't limit "fair use" under copyright law.
+This license does not limit "fair use" under copyright law.
 
 ## No Other Rights
 
-You may not sublicense or transfer your license for the software to anyone else.  The terms of this license don't imply any other licenses.
+You may not sublicense or transfer your license for the software to anyone else. The terms of this license do not imply any other permission.
 
 ## Patent Defense
 
-If you claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately.  If your company claims in writing that this software infringes or contributes to infringement of any patent, your patent permission ends immediately for work on behalf of your company.
+If you claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately. If your company claims in writing that this software infringes or contributes to infringement of any patent, your patent permission ends immediately for work on behalf of your company.
 
 ## Violations
 
-The first time the licensor warns you in writing that you've violated any term of this license, or used this software in a way this license doesn't allow, your license can nonetheless continue if you come into full compliance with this license, and take practical steps to correct past violations, within 30 days.  Otherwise, your copyright and patent permission under this license ends immediately.
+The first time the licensor warns you in writing that you have violated any term of this license, or done anything with the software not permitted by this license, your license can nonetheless continue if you come into full compliance with this license, and take practical steps to correct past violations, within 30 days. Otherwise, your copyright and patent permission under this license ends immediately.
 
 ## No Liability
 
-***As far as the law allows, this software comes as is, without any warranty or condition, and the licensor will not be liable to you for any legal damages arising out of this license or the use or nature of this software, under any kind of legal claim.***
+***As far as the law allows, this software comes as is, without any warranty or condition. As far as the law allows the licensor will not be liable to you for any legal damages related to this license or this software, under any kind of legal claim.***
 
 ## You and Your Company
 
-Throughout this license, _you_ refers to the individual or legal entity agreeing to these terms, and _your company_ refers to any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization.  _Control_ means ownership of substantially all the assets of an organization, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
+Throughout this license, _you_ refers to the individual or legal entity agreeing to these terms, and _your company_ refers to any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization. _Control_ means ownership of substantially all the assets of an organization or the power to direct its management and policies by vote, contract, or otherwise.
