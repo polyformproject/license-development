@@ -127,7 +127,7 @@ If you claim in writing that this software infringes or contributes to infringem
 
 ## Violations
 
-The first time the licensor warns you in writing that you have violated any term of this license, or done anything with the software not permitted by this license, your permission can nonetheless continue if you come into full compliance with this license, and take practical steps to correct past violations, within 30 days. Otherwise, your copyright and patent permission under this license ends immediately.
+The first time the licensor warns you in writing that you have violated any term of this license, or done anything with the software not permitted by this license, your copyright and patent permission under this license can nonetheless continue if you come into full compliance with this license, and take practical steps to correct past violations, within 30 days. Otherwise, your copyright and patent permission under this license ends immediately.
 
 ## No Liability
 
