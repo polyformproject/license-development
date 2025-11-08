@@ -119,7 +119,7 @@ This license does not limit "fair use" under copyright law.
 
 ## No Other Rights
 
-You may not sublicense or transfer your license for the software to anyone else. The terms of this license do not imply any other permission.
+You may not sublicense or transfer your permission under this license to anyone else. The terms of this license do not imply any other permission.
 
 ## Patent Defense
 
