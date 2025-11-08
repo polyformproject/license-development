@@ -123,7 +123,7 @@ You may not sublicense or transfer your permission under this license to anyone 
 
 ## Patent Defense
 
-If you claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately. If your company claims in writing that this software infringes or contributes to infringement of any patent, your patent permission ends immediately for work on behalf of your company.
+If you claim in writing that this software infringes or contributes to infringement of any patent, your patent permission under this license ends immediately. If your company claims in writing that this software infringes or contributes to infringement of any patent, your patent permission under tihs license ends immediately for work on behalf of your company.
 
 ## Violations
 
