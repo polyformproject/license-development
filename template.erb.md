@@ -131,7 +131,7 @@ The first time the licensor warns you in writing that you have violated any term
 
 ## No Liability
 
-***As far as the law allows, this software comes as is, without any warranty or condition. As far as the law allows the licensor will not be liable to you for any legal damages related to this license or this software, under any kind of legal claim.***
+***As far as the law allows, this software comes as is, without any warranty or condition. As far as the law allows, the licensor will not be liable to you for any legal damages related to this license or this software, under any kind of legal claim.***
 
 ## You and Your Company
 
