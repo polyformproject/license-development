@@ -54,7 +54,7 @@ This license gives you free permission for this software, but only for noncommer
 
 ## Noncommercial Organizations
 
-Work on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution are all noncommercial uses.
+Work on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution is a noncommercial use.
 <% end %>
 
 <% if personaluse %>
