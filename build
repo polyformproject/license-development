@@ -4,7 +4,7 @@
 require 'erb'
 require 'yaml'
 
-Dir.mkdir('licenses') rescue nil
+Dir.mkdir('licenses') rescue
 
 meta = YAML.load_file('licenses.yml')
 template = ERB.new(File.read('template.erb.md'))
