@@ -8,7 +8,7 @@ Working Draft
 
 <% def business (headcount, revenue, assets) "You may run this software for the benefit of your company so long as it has fewer than #{headcount} total individuals working as employees and independent contractors, less than #{revenue} USD (2019) total gross revenue in the last tax year, and less than #{assets} USD (2019) total assets as of the end of the last tax year.
 
-<!-- Note: The phrase 'your company' is defined to include afiliates in the 'You and Your Company' section below. -->
+<!-- Note: The phrase 'your company' is defined to include affiliates in the 'You and Your Company' section below. -->
 
 Adjust these dollar thresholds for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
 
