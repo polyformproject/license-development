@@ -110,7 +110,7 @@ The licensor gives you permission under any patent claims it can license, or bec
 <% if distribute %>
 ## Notices
 
-Make sure anyone who gets a copy of this software from you also gets a copy of this license or the URL for it above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with this software.
+Make sure anyone who gets a copy of this software from you also gets a copy of this license or the URL for it above.
 <% end %>
 
 ## Fair Use
