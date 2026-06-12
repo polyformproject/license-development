@@ -94,7 +94,7 @@ If the licensor or any of its affiliates sells a line of business developing thi
 <% if shield or perimeter %>
 ## Products
 
-Throughout this license, _product_ is used to mean a good, service, or combination of them.
+Throughout this license, _product_ is used to mean a good, service, or combination of good and service.
 <% end %>
 
 <%# License Grants %>
