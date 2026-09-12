@@ -1,10 +1,14 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require 'fileutils'
 require 'erb'
 require 'yaml'
 
-Dir.mkdir('licenses') rescue
+directory = 'licenses'
+
+FileUtils.rm_rf(directory)
+FileUtils.mkdir(directory)
 
 meta = YAML.load_file('licenses.yml')
 template = ERB.new(File.read('template.erb.md'))
@@ -17,5 +21,5 @@ meta.each do |key, properties|
   end
   view.merge!(properties)
   text = template.result_with_hash(view)
-  File.write("licenses/#{file}", text.gsub(/\n{2,}/, "\n\n"))
+  File.write("#{directory}/#{file}", text.gsub(/\n{2,}/, "\n\n"))
 end
