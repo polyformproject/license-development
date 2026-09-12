@@ -10,7 +10,7 @@ directory = 'licenses'
 FileUtils.rm_rf(directory)
 FileUtils.mkdir(directory)
 
-meta = YAML.load_file('licenses.yml')
+meta = YAML.load_file('meta.yml')
 template = ERB.new(File.read('template.erb.md'))
 all_keys = meta.keys
 meta.each do |key, properties|
