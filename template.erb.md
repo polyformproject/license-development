@@ -1,6 +1,6 @@
 # PolyForm <%= title %> License
 
-Working Draft
+<%= version %>
 
 <https://github.com/polyformproject/license-development>
 

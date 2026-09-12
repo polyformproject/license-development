@@ -10,6 +10,8 @@ directory = 'licenses'
 FileUtils.rm_rf(directory)
 FileUtils.mkdir(directory)
 
+version = ENV['VERSION'] ? "Version #{ENV['VERSION']}" : 'Working Draft'
+
 meta = YAML.load_file('meta.yml')
 template = ERB.new(File.read('template.erb.md'))
 all_keys = meta.keys
@@ -20,6 +22,7 @@ meta.each do |key, properties|
     view[other_key] = other_key == key
   end
   view.merge!(properties)
+  view['version'] = version
   text = template.result_with_hash(view)
   File.write("#{directory}/#{file}", text.gsub(/\n{2,}/, "\n\n"))
 end
