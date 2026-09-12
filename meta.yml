@@ -1,3 +1,7 @@
+# This data file lists each PolyForm license with metadata
+# for the various license features it includes and omits.
+# The `build` script uses this metadata to template
+# license texts.
 freetrial:
   title: Free Trial
   slug: free-trial

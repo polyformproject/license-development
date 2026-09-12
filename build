@@ -1,12 +1,18 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+# This script creates a new `licenses` subdirectory
+# and fills with with license-text Markdown files.
+# It generates those files using metadata in `meta.yml`
+# and templated content in `template.erb.md`.
+
 require 'fileutils'
 require 'erb'
 require 'yaml'
 
+# Destroy the subdirectory if it exists,
+# then recreate it empty.
 directory = 'licenses'
-
 FileUtils.rm_rf(directory)
 FileUtils.mkdir(directory)
 
