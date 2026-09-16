@@ -40,7 +40,7 @@ You may run and make changes to this software only for the internal business ope
 You may run and make changes to this software for yourself or your company for 30 calendar days in a row, only to find out whether this software will work for a particular need or project.  You may try this software for multiple different needs and projects for 30 days each.
 <% end %>
 
-<% personal_uses = 'Research, experiment, and testing for the benefit of public knowledge, education, private entertainment, hobby projects, amateur pursuits, and religious observance are all noncommercial uses.' %>
+<% personal_uses = 'Research, experiment, and testing for the benefit of public knowledge, education, private entertainment, hobby projects, amateur pursuits, and religious observance all count as noncommercial uses.' %>
 
 <% if noncommercial or strict %>
 ## Noncommercial Use
@@ -54,7 +54,7 @@ This license gives you free permission for this software, but only for noncommer
 
 ## Noncommercial Organizations
 
-Work on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution is a noncommercial use.
+Work on behalf of any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution counts as a noncommercial use.
 <% end %>
 
 <% if personaluse %>
