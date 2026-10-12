@@ -12,7 +12,7 @@
 
 Adjust these dollar thresholds for inflation according to the United States Bureau of Labor Statistics' consumer price index for all urban consumers, U.S. city average, for all items, not seasonally adjusted, with 1982–1984=100 reference base.
 
-If your company is a new company that did not pay tax for the last tax year, you may run this software for the benefit of your company during the current tax year until it exceeds the headcount, revenue, and assets figures above." end %>
+If your company is a new company that has not yet operated for a full tax year, you may run this software for the benefit of your company during the current tax year until it exceeds the headcount, revenue, and assets figures above." end %>
 
 <% if smallbusiness %>
 ## Small Business Use
