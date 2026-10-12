@@ -28,9 +28,9 @@ If your company is a new company that has not yet operated for a full tax year, 
 
 <% if internaluse %>
 ## Internal Business Use
-<% permission_scope = 'for internal business' %>
+<% permission_scope = 'for the internal business operations of you and your company' %>
 
-You may run and make changes to this software only for the internal business operations of you and your company.
+You may run and make changes to this software only <%- permission_scope %>.
 <% end %>
 
 <% if freetrial %>
