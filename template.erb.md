@@ -59,9 +59,9 @@ Work on behalf of any charitable organization, educational institution, public r
 
 <% if personaluse %>
 ## Personal Use
-<% permission_scope = 'for personal noncommercial uses' %>
+<% permission_scope = 'for personal, noncommercial uses' %>
 
-You may run, make changes to, and share this software only for personal noncommercial uses unaffiliated with any organization.  <%= personal_uses %>
+You may run, make changes to, and share this software only for personal, noncommercial uses unaffiliated with any organization.  <%= personal_uses %>
 <% end %>
 
 <% if perimeter or shield %>
