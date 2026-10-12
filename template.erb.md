@@ -101,7 +101,7 @@ Throughout this license, _product_ is used to mean a good, service, or combinati
 
 ## Copyrights
 
-The licensor gives you permission under its copyrights in this software to run, make copies of<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, but only<% end %> <%= permission_scope %>.
+The licensor gives you permission under its copyrights in this software to run, make copies of<% if change %><% if distribute %>, <% else %> and <% end %>make changes to<% end %><% if distribute %>, and share copies of and changes to<% end %> this software<% if change %>, but only<% end %> <%= permission_scope %>.<% if not change or not distribute %> The licensor does _not_ give you permission to <% if !change and !distribute%>make changes to or share copies of this software<% elsif not distribute %>share copies of this software<% elsif not change %>make changes to this software<% end %>.<% end %>
 
 ## Patents
 
